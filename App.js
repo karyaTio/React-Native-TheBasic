@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View, Image } from "react-native";
 
-import Touchables from "./components/Touchables";
+import IScrolledDownAndWhatHappenedNextShockedMe from "./components/IScrolledDownAndWhatHappenedNextShockedMe";
 
 export default class App extends React.Component {
   render() {
@@ -9,7 +9,7 @@ export default class App extends React.Component {
       uri:
         "https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg"
     };
-    return <Touchables />;
+    return <IScrolledDownAndWhatHappenedNextShockedMe />;
   }
 }
 
