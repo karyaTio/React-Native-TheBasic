@@ -7,6 +7,7 @@ import FixedDimensionsBasics from "./components/FixedDimensionsBasics";
 import FlexDimensionsBasics from "./components/FlexDimensionsBasics";
 import FlexDirectionBasics from "./components/FlexDirectionBasics";
 import JustifyContentBasics from "./components/JustifyContentBasics";
+import AlignItemsBasics from "./components/AlignItemsBasics";
 
 export default class App extends React.Component {
   render() {
@@ -14,7 +15,7 @@ export default class App extends React.Component {
       uri:
         "https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg"
     };
-    return <JustifyContentBasics />;
+    return <AlignItemsBasics />;
   }
 }
 
